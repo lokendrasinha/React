@@ -1,0 +1,16 @@
+import React from 'react'
+
+import HeroText from './HeroText.jsx';
+import ArrowIcon from './ArrowIcon.jsx';
+
+
+const LeftContent = () => {
+  return (
+    <div className='h-full w-1/3 flex flex-col justify-between '>
+        <HeroText/>
+        <ArrowIcon/> 
+    </div>
+  )
+}
+
+export default LeftContent
